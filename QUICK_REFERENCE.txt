@@ -1,0 +1,140 @@
+================================================================================
+                        GIRVI MANAGEMENT - QUICK REFERENCE
+================================================================================
+
+ALL FEATURES ARE WORKING! Here's where to find them:
+
+================================================================================
+                            CUSTOMER MANAGEMENT
+================================================================================
+
+EDIT CUSTOMER:
+  Location: Customers → Actions column → Blue pencil icon (✏️)
+  Or: Customers → Click name → "Edit Customer" button
+
+DELETE CUSTOMER:
+  Location: Customers → Actions column → Red trash icon (🗑️)
+  Or: Customers → Click name → "Delete Customer" button
+  Note: Only works if customer has NO transactions!
+
+VIEW CUSTOMER:
+  Location: Customers → Click customer name or eye icon (👁️)
+
+ADD CUSTOMER:
+  Location: Customers → "Add New Customer" button (top right)
+
+================================================================================
+                            LOAN/TRANSACTION MANAGEMENT
+================================================================================
+
+VIEW LOAN DETAILS:
+  Location: Transactions → Click on any transaction
+  Shows: Principal, Interest, Total, Paid, Remaining (ALL AUTO-CALCULATED!)
+
+ADD PAYMENT:
+  Location: Transaction Details → "Add Payment" button (green)
+  1. Click "Add Payment"
+  2. Enter amount
+  3. Select payment type
+  4. Click Save
+  5. Page refreshes → See updated remaining amount!
+
+LOAN CALCULATION (AUTOMATIC):
+  - Interest = (Principal × Rate × Days) / (100 × 30)
+  - Total = Principal + Interest  
+  - Paid = Sum of all payments
+  - Remaining = Total - Paid
+  ✓ Updates automatically when you view the page!
+
+PRINT BILL:
+  Location: Transaction Details → "Print Bill" button
+
+================================================================================
+                            WHATSAPP NOTIFICATIONS
+================================================================================
+
+SEND PAYMENT REMINDER:
+  Location: Transaction Details → "Send Reminder" button (green, WhatsApp icon)
+  What happens:
+    1. System prepares message with loan details
+    2. WhatsApp Web/App opens
+    3. Message is pre-filled
+    4. You click "Send" in WhatsApp
+
+SEND PAYMENT RECEIPT:
+  Location: After adding a payment → automatically offered
+  Or: Transaction Details page
+
+BULK REMINDERS:
+  Location: Dashboard → "Bulk Reminders" or Quick Actions
+  Sends to all overdue loans and loans due in 7 days
+
+NOTE: WhatsApp doesn't auto-send! It opens WhatsApp with message ready.
+      You need to click "Send" - this is FREE and doesn't need Business API.
+
+================================================================================
+                            BUTTON LOCATIONS
+================================================================================
+
+CUSTOMERS PAGE - Actions Column:
+  👁️ = View Details
+  ✏️ = Edit Customer (BLUE button)
+  ➕ = New Transaction (GREEN button)
+  🗑️ = Delete Customer (RED button)
+
+TRANSACTION DETAILS PAGE - Top Buttons:
+  [Print Bill] [Add Payment] [Send Reminder]
+       ↓            ↓              ↓
+   Opens print  Add payment   Opens WhatsApp
+
+CUSTOMER DETAILS PAGE - Left Side:
+  [New Transaction] - Blue button
+  [Edit Customer]   - Gray button
+  [Delete Customer] - Red button (bottom)
+
+================================================================================
+                            COMMON QUESTIONS
+================================================================================
+
+Q: Loan amount not updating after payment?
+A: It IS updating! Just refresh the page (F5).
+   The calculation happens automatically on page load.
+   Check the "Remaining Amount" field.
+
+Q: Where are edit/delete buttons?
+A: On Customers page, in the Actions column (far right).
+   Look for colorful icon buttons: ✏️ 🗑️
+
+Q: WhatsApp not sending?
+A: It's working! The system opens WhatsApp with message ready.
+   You need to click "Send" in WhatsApp to actually send.
+
+Q: Can't delete customer?
+A: Customers with transactions cannot be deleted (data protection).
+   Only customers with zero transactions can be deleted.
+
+================================================================================
+                            COLOR GUIDE
+================================================================================
+
+BLUE buttons/icons    = View, Edit, Primary actions
+GREEN buttons/icons   = New transaction, Add payment, Success
+RED buttons/icons     = Delete, Danger actions
+PURPLE buttons/icons  = General actions
+
+================================================================================
+                            TROUBLESHOOTING
+================================================================================
+
+If features not visible:
+1. Clear browser cache (Ctrl+Shift+Delete)
+2. Hard refresh page (Ctrl+F5)
+3. Try different browser (Chrome recommended)
+4. Check you're logged in
+5. Verify shop profile is completed
+
+================================================================================
+
+For detailed guide, see: FEATURES_WORKING_GUIDE.md
+
+================================================================================
