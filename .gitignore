@@ -39,3 +39,12 @@ Thumbs.db
 # Sensitive
 key.properties
 upload-keystore.jks
+
+# Android / Gradle
+.gradle/
+**/.gradle/
+local.properties
+*.iml
+/build/
+**/build/
+.cxx/

@@ -82,3 +82,8 @@ http://localhost:5000
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details. 
+## Native Android App (No Python/Flask)
+
+A native Kotlin Android version is available in `android-native/`.
+It runs locally with Room database and does not require Python or Flask.
+See `android-native/README.md` for setup.
